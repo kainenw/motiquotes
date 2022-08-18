@@ -1,10 +1,10 @@
 const verb = {
     impSg: {
         pos: [
-        'grow', 'let', 'go to', 'do', 'make', 'choose', 'plant', 'be', 'love', 'live', 'have', 'open', 'desire', 'remember', 'rest', 'read', 'listen to', 'experience', 'protect', 'strive for', 'want', 'say', 'act', 'conquer', 'understand', 'achieve', 'take', 'get', 'give', 'work', 'succeed', 'crave','further', 'find', 'feel', 'tell', 'care for', 'dream', 'keep', 'own', 'clear', 'come to', 'stand',  'change', 'see', 'refresh', 'think', 'know', 'hope', 'best', 
+        'grow', 'let', 'go to', 'do', 'make', 'choose', 'plant', 'be', 'love', 'live', 'have', 'open', 'desire', 'remember', 'rest', 'read', 'listen to', 'experience', 'protect', 'strive for', 'want', 'say', 'act', 'conquer', 'understand', 'achieve', 'take', 'get', 'give', 'work', 'succeed', 'crave','further', 'find', 'feel', 'tell', 'care for', 'dream', 'keep', 'own', 'clear', 'come to', 'stand',  'change', 'see', 'refresh', 'think', 'know', 'hope', 'best', 'plant', 'water',
         ],
         neg: [
-            'drain', 'lose', 'stop', 'detach', 'dislike', 'differ'
+            'lose', 'stop', 'detach from',
         ]
     },
     ind: {
@@ -29,10 +29,10 @@ const verb = {
 const noun = {
     sg: {
         pos: [
-            'mind', 'information', 'health', 'effort', 'voice', 'wealth', 'happiness', 'life', 'success', 'hope', 'thing', 'human', 'page', 'circumstance', 'way', 'concept', 'proof', 'lamp', 'piece', 'example', 'youth', 'excitement', 'change', 'plant', 'foundation', 'course', 'will to','love', 'world', 'day', 'something', 'forethought', 'innovation', 'given', 'condition', 'time', 'days', 'water',  'style', 'work', 'act', 'desire', 'news', 'substance', 'encouragement', 'book', 'opinion', 'experience', 'anything', 'result', 'moment','possibility', 'strength', 'action', 'being', 'soul', 'universe', 'gift', 'man',  'need', 'faith'
+            'mind', 'information', 'health', 'effort', 'voice', 'wealth', 'happiness', 'life', 'success', 'hope', 'thing', 'human', 'page', 'circumstance', 'way', 'concept', 'proof', 'lamp', 'piece', 'example', 'youth', 'excitement', 'change', 'foundation', 'course', 'will to','love', 'world', 'day', 'something', 'forethought', 'innovation', 'given', 'condition', 'time', 'days',  'style', 'work', 'act', 'desire', 'news', 'substance', 'encouragement', 'book', 'opinion', 'experience', 'anything', 'result', 'moment','possibility', 'strength', 'action', 'being', 'soul', 'universe', 'gift', 'man',  'need', 'faith'
             ],
         neg: [
-            'fears', 'problem', 'lows', 'curse'
+            'fears', 'problem', 'lows',
         ]
     },
     pl: {
