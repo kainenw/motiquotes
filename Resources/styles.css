@@ -1,5 +1,6 @@
 * {
     transition: all, ease-in-out, 2s;
+    background-image: url("./Img/B7.jpg");
     background-size: cover;
     height: 100%;
 }
@@ -19,7 +20,6 @@ h1, h2 {
     height: auto;
     border-radius: 20px;
     z-index: 10;
-    
 }
 
 h1 { 

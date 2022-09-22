@@ -50,5 +50,3 @@ const get = async (word, type) => {
         console.log(error);
     }
 }
-
-export { get, DatamuseQueryParam};
