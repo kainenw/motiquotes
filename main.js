@@ -4,7 +4,7 @@ async function generate(data) {
     "https://api-inference.huggingface.co/models/google/flan-t5-base",
     {
       headers: {
-        Authorization: "Bearer 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",
+        Authorization: "Bearer XXXX",
       },
       method: "POST",
       body: JSON.stringify(data),
