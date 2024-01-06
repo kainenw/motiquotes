@@ -1,10 +1,15 @@
+// Get API key
+const fr = new FileReader();
+const key = fr.readAsText('./key.txt');
+console.log(key)
+
 // LLM
 async function generate(data) {
   const response = await fetch(
     "https://api-inference.huggingface.co/models/google/flan-t5-base",
     {
       headers: {
-        Authorization: "Bearer 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",
+        Authorization: `Bearer hf_${key}`,
       },
       method: "POST",
       body: JSON.stringify(data),
